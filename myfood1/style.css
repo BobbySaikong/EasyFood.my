@@ -1,0 +1,130 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #F5F7FA;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+
+main {
+  padding: 20px;
+}
+
+.ads {
+  background-color: #F9A825;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  background: white;
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.login-form input {
+  display: block;
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+.login-form button {
+  background-color: #1A237E;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  cursor: pointer;
+}
+
+.social-login button {
+  background-color: #F9A825;
+  color: black;
+  margin: 5px 0;
+  padding: 8px;
+  width: 100%;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #1A237E;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.food-form {
+  background: white;
+  max-width: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1A237E;
+  padding: 10px 20px;
+  color: white;
+}
+
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  height: 50px; /* adjust as needed */
+  margin-right: 10px;
+}
+
+nav a {
+  color: white;
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+#foodList {
+  display: flex;
+  flex-wrap: wrap; /* allow items to go to the next line */
+  gap: 20px; /* space between items */
+  justify-content: center; /* optional: center items */
+}
+
+.food-item {
+  width: 30%; /* roughly 3 items per row */
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 5px #ccc;
+  text-align: center;
+}
+
+.food-item img {
+  width: 100%;
+  border-radius: 8px;
+  height: 400px;
+}
+
+.cart-form {
+  background: white;
+  max-width: auto;
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #ccc;
+}

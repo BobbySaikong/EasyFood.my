@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Home - easyfood.my</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-left">
+            <img src="logo2.png" class="logo">
+            <h1>EasyFood.my</h1>
+        </div>
+        <nav>
+            <a href="#">About Us</a>
+            <a href="#">Contact</a>
+            <a href="#">Support</a>
+            <a href="#">Sponsorship</a>
+        </nav>
+    </header>
+
+    <input type="text" id="searchInput" placeholder="Search food..." onkeyup="searchFood()">
+
+   
+    <section class="food-form">
+        <h2>Food Items</h2>
+        <div id="foodList">
+
+            <div class="food-item">
+                <img src="gepuk sultan.png" alt="Food 1">
+                <p>Ayam Gepuk Sultan</p>
+                <button onclick="addToCart('He & She', 10)">Add to Cart</button>
+            </div>
+
+            <div class="food-item">
+                <img src="he & she.png" alt="Food 2">
+                <p>He & She</p>
+                <button onclick="addToCart('He & She', 5)">Add to Cart</button>
+            </div>
+
+            <div class="food-item">
+                <img src="mixue.png" alt="Food 3">
+                <p>Mixue</p>
+                <button onclick="addToCart('He & She', 3)">Add to Cart</button>
+            </div>
+
+            <!-- Add more food-item divs here -->
+        </div>
+    </section>
+    
+    <section class="cart-form">
+
+        <h2>Shopping Cart</h2>
+        <ul id="cartList"></ul>
+        <p>Total : RM <span id="totalPrice">0.00</span></p>
+        <button onclick="pay()">Pay Now</button>
+    </section>
+
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
